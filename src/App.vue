@@ -35,5 +35,6 @@ export default {
 }
 body {
   overflow-x: hidden;
+  margin-left: 100px;
 }
 </style>

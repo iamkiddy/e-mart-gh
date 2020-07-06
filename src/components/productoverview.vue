@@ -41,7 +41,22 @@
           <div class="items-views">
             <div class="items-views-list">
               <div class="card-2">
-                <h1 class="product-card"></h1>
+                <img src="../assets/man.png" class="card-img" />
+              </div>
+              <div class="card-2">
+                <img src="../assets/phone.png" class="card-img" />
+              </div>
+              <div class="card-2">
+                <img src="../assets/maninshirt.jpg" class="card-img" />
+              </div>
+              <div class="card-2 card-2-2">
+                <img src="../assets/ps4.png" class="card-img" />
+              </div>
+              <div class="card-2 card-2-2">
+                <img src="../assets/ps4.png" class="card-img" />
+              </div>
+              <div class="card-2 card-2-2">
+                <img src="../assets/ps4.png" class="card-img" />
               </div>
             </div>
           </div>
@@ -154,6 +169,25 @@ a {
   width: 12px;
   position: relative;
   top: 0px;
+}
+.items-views-list {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card-2 {
+  width: 300px;
+  height: 450px;
+  transition: all 0.5s;
+  background: #e0e1e3;
+}
+.card-2-2 {
+  margin-top: 100px;
+}
+.card-img {
+  width: 180px;
+  margin-top: 50px;
+  margin-left: 40px;
 }
 </style>
 
