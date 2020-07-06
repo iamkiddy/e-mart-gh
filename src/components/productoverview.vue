@@ -42,21 +42,33 @@
             <div class="items-views-list">
               <div class="card-2">
                 <img src="../assets/man.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
                 <img src="../assets/phone.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
-                <img src="../assets/maninshirt.jpg" class="card-img" />
+                <img src="../assets/phone.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/ps4.png" class="card-img" />
+                <img src="../assets/man.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/ps4.png" class="card-img" />
+                <img src="../assets/phone.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/ps4.png" class="card-img" />
+                <img src="../assets/man.png" class="card-img" />
+                <h1 class="item-content">sprit Ruffle Shirt</h1>
+                <p class="item-price">GHS 50</p>
               </div>
             </div>
           </div>
@@ -188,6 +200,14 @@ a {
   width: 180px;
   margin-top: 50px;
   margin-left: 40px;
+}
+.item-content {
+  font-size: 16px;
+  font-weight: 200;
+  margin-top: 70px;
+}
+.item-price {
+  color: #6c7ae0;
 }
 </style>
 
