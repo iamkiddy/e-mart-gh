@@ -35,6 +35,8 @@ export default {
 }
 body {
   overflow-x: hidden;
+}
+.whole-app{
   margin-left: 100px;
 }
 </style>
