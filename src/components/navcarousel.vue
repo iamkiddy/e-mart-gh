@@ -111,13 +111,16 @@ img:hover {
 }
 .bag-number {
   position: absolute;
-  right: 160px;
+  right: 140px;
   top: 55px;
   background: #6c7ae0;
   color: #ffffff;
-  width: 15px;
+  width: 1.25rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 500;
   text-align: center;
-  font-size: 13px;
+  line-height: 1.25rem;
 }
 .texts {
   margin-top: 130px;

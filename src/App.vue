@@ -21,6 +21,12 @@ export default {
     navcarousel,
     itemssection,
     productoverview
+  },
+   created: function(){
+     const loading = this.$vs.loading({text:'Welcome to Store'})
+          setTimeout(() => {
+            loading.close()
+          }, 5000)
   }
 };
 </script>
@@ -37,6 +43,6 @@ body {
   overflow-x: hidden;
 }
 .whole-app{
-  margin-left: 100px;
+  margin-left: 0px;
 }
 </style>
