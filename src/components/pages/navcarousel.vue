@@ -24,9 +24,9 @@
             </ul>
           </nav>
           <div class="shop-icons">
-            <img src="../assets/search.svg" class="search" />
-            <img src="../assets/shopping-bag.svg" class="bag" />
-            <img src="../assets/heart.svg" class="love" />
+            <img src="../../assets/search.svg" class="search" />
+            <img src="../../assets/shopping-bag.svg" class="bag" />
+            <img src="../../assets/heart.svg" class="love" />
           </div>
           <div class="bag-number">2</div>
         </header>
@@ -37,17 +37,28 @@
             <button class="sec-btn">SHOP NOW</button>
           </div>
           <div class="image">
-            <img src="../assets/maninshirt.jpg" class="img-main" />
+            <img src="../../assets/maninshirt.jpg" class="img-main" />
           </div>
         </section>
       </div>
     </div>
+    <itemssection />
+    <productoverview />
+    <homeFooter />
   </div>
 </template>
 
 <script>
+import itemssection from "../home-components/itemssection";
+import productoverview from "../home-components/productoverview";
+import homeFooter from "../home-components/home-footer";
 export default {
   name: "navcarousel",
+  components: {
+    itemssection,
+    productoverview,
+    homeFooter,
+  },
 };
 </script>
 
@@ -160,5 +171,3 @@ img:hover {
   border: none;
 }
 </style>
-
-

@@ -1,35 +1,26 @@
 <template>
   <div id="app">
-    <home />
+    <div class="whole-app">
+      <freeshippingnavbar />
+      <navcarousel />
+    </div>
   </div>
 </template>
 
 <script>
-import home from "./components/home";
+import freeshippingnavbar from "./pages/freeshippingnavbar";
+import navcarousel from "./pages/navcarousel";
+
 export default {
   name: "app",
   components: {
-    home,
-  },
-  mounted() {
-    this.$refs.topProgress.start();
-
-    // Use setTimeout for demo
-    setTimeout(() => {
-      this.$refs.topProgress.done();
-    }, 2000);
-  },
-
-  created: function() {
-    const loading = this.$vs.loading({ text: "Welcome to Store" });
-    setTimeout(() => {
-      loading.close();
-    }, 5000);
+    freeshippingnavbar,
+    navcarousel,
   },
 };
 </script>
 
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Roboto&display=swap");
 
 * {

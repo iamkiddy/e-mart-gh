@@ -27,12 +27,12 @@
           <div class="customise-btn">
             <div class="filter">
               <button class="filter-btn">
-                <img src="../assets/filter.svg" class="filter-icon" /> Filter
+                <img src="../../assets/filter.svg" class="filter-icon" /> Filter
               </button>
             </div>
             <div class="search">
               <button class="search-btn">
-                <img src="../assets/search.svg" class="search-icon" /> Search
+                <img src="../../assets/search.svg" class="search-icon" /> Search
               </button>
             </div>
           </div>
@@ -41,32 +41,32 @@
           <div class="items-views">
             <div class="items-views-list">
               <div class="card-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
@@ -238,5 +238,3 @@ a:hover {
   background: #6c7ae0;
 }
 </style>
-
-

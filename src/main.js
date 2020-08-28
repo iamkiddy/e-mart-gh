@@ -1,13 +1,16 @@
-import Vue from 'vue'
-import App from './App.vue'
-import Vuesax from 'vuesax'
+import Vue from "vue";
+import App from "./App.vue";
+import Vuesax from "vuesax";
+import vueTopprogress from "vue-top-progress";
+import "vuesax/dist/vuesax.css"; //Vuesax styles
+import VueRouter from "vue-router";
 
-import 'vuesax/dist/vuesax.css' //Vuesax styles
+Vue.use(VueRouter);
+Vue.use(Vuesax);
+Vue.use(vueTopprogress);
 
-Vue.use(Vuesax)
-
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  render: (h) => h(App),
+}).$mount("#app");

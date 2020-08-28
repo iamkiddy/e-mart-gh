@@ -3,7 +3,7 @@
     <div class="footer-section">
       <div class="footer-items">
         <div class="categories-sections">
-          <h4>CATEGORIES</h4>
+          <h4 class="cat-text">CATEGORIES</h4>
           <ul>
             <li>Women</li>
             <li>Men</li>
@@ -26,34 +26,37 @@
           <h4 class="help-text">GET IN TOUCH</h4>
           <li class="get-in-touch-list">
             Any questions?
-            <br />Let us know
-            or call us
-            <br />on
-            (+1) 96 716 6879
+            <br />Let us know or call us <br />on (+233) 54 841 2310
           </li>
           <div class="icons">
-            <img src="../assets/instagram.svg" class="instagram" />
-            <img src="../assets/twitter.svg" class="twitter" />
-            <img src="../assets/github.svg" class="github" />
+            <img src="../../assets/instagram.svg" class="instagram" />
+            <img src="../../assets/twitter.svg" class="twitter" />
+            <img src="../../assets/github.svg" class="github" />
           </div>
         </div>
         <div class="categories-sections">
           <h4 class="help-text">NEWSLETTER</h4>
           <div class="form">
-            <input class="input" type="search" placeholder="email@example.com" />
+            <input
+              class="input"
+              type="search"
+              placeholder="email@example.com"
+            />
           </div>
           <button class="btn">SUBSCRIBE</button>
         </div>
       </div>
     </div>
-    <img class="payments" src="../assets/payments.png" />
-    <p class="copyright">Copyright &copy; 2020 All rights reserved | Hammondz</p>
+    <img class="payments" src="../../assets/payments.png" />
+    <p class="copyright">
+      Copyright &copy; 2020 All rights reserved | Hammondz
+    </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Footer",
+  name: "home-footer",
 };
 </script>
 
@@ -80,6 +83,10 @@ li {
   padding: 10px;
   font-family: "Poppins", sans-serif;
   color: #888;
+  cursor: pointer;
+}
+li:hover {
+  color: #6c7ae0;
 }
 .footer-items {
   display: grid;
@@ -160,5 +167,9 @@ img {
   position: relative;
   top: 120px;
   left: 600px;
+}
+.cat-text {
+  position: relative;
+  left: 10px;
 }
 </style>
