@@ -81,7 +81,7 @@
 
 <script>
 export default {
-  name: "productoverview"
+  name: "productoverview",
 };
 </script>
 
@@ -210,30 +210,32 @@ a {
 .item-price {
   color: #6c7ae0;
 }
-.items-btn{
+.items-btn {
   position: relative;
-  top:90px;
+  top: 90px;
   left: 500px;
   min-width: 161px;
   height: 46px;
   margin-top: 50px;
   border-radius: 23px;
-  background: #6c7ae0;
+  background: #e6e6e6;
   border: none;
   font-weight: bold;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: "poppins", sans-serif;
 }
-.items-btn:hover{
-  background:#333;
+.items-btn:hover {
+  background: #6c7ae0;
+  color: #fff;
 }
-a:hover{
-  color:#6c7ae0;
+a:hover {
+  color: #6c7ae0;
 }
-.link-line:hover{
-  background:#6c7ae0;
+.link-line:hover {
+  background: #6c7ae0;
 }
 </style>
 

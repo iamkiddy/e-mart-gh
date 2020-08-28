@@ -47,7 +47,7 @@
 
 <script>
 export default {
-  name: "navcarousel"
+  name: "navcarousel",
 };
 </script>
 
@@ -145,6 +145,7 @@ img:hover {
   font-size: 15px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: "poppins", sans-serif;
 }
 .sec-btn:hover {
   background: #333;

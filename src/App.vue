@@ -5,6 +5,7 @@
       <navcarousel />
       <itemssection />
       <productoverview />
+      <Footer />
     </div>
   </div>
 </template>
@@ -14,20 +15,22 @@ import freeshippingnavbar from "./components/freeshippingnavbar";
 import navcarousel from "./components/navcarousel";
 import itemssection from "./components/itemssection";
 import productoverview from "./components/productoverview";
+import Footer from "./components/footer";
 export default {
   name: "app",
   components: {
     freeshippingnavbar,
     navcarousel,
     itemssection,
-    productoverview
+    productoverview,
+    Footer,
   },
-   created: function(){
-     const loading = this.$vs.loading({text:'Welcome to Store'})
-          setTimeout(() => {
-            loading.close()
-          }, 5000)
-  }
+  created: function () {
+    const loading = this.$vs.loading({ text: "Welcome to Store" });
+    setTimeout(() => {
+      loading.close();
+    }, 5000);
+  },
 };
 </script>
 
@@ -42,7 +45,14 @@ export default {
 body {
   overflow-x: hidden;
 }
-.whole-app{
+.whole-app {
   margin-left: 0px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 10px;
 }
 </style>
