@@ -1,16 +1,12 @@
 <template>
-  <div id="app">
-    <home />
-  </div>
+  <router-view></router-view>
 </template>
 
 <script>
 import home from "./components/home";
 export default {
   name: "app",
-  components: {
-    home,
-  },
+  components: {},
   mounted() {
     this.$refs.topProgress.start();
 

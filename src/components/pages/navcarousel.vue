@@ -1,5 +1,6 @@
 <template>
   <div class="navcarousel">
+    <freeshippingnavbar />
     <div class="container">
       <div class="container-1">
         <header>
@@ -52,12 +53,14 @@
 import itemssection from "../home-components/itemssection";
 import productoverview from "../home-components/productoverview";
 import homeFooter from "../home-components/home-footer";
+import freeshippingnavbar from "./freeshippingnavbar";
 export default {
   name: "navcarousel",
   components: {
     itemssection,
     productoverview,
     homeFooter,
+    freeshippingnavbar,
   },
 };
 </script>

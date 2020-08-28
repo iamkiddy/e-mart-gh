@@ -1,7 +1,7 @@
 <template>
   <div class="explore">
     <freeshippingnavbar />
-    <productoverview />
+    <productoverview class="prod" />
   </div>
 </template>
 
@@ -17,4 +17,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.prod {
+  margin-top: 50px;
+}
+</style>
