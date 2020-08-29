@@ -1,26 +1,29 @@
 <template>
   <div class="navcarousel">
+    <vue-topprogress ref="topProgress"></vue-topprogress>
     <freeshippingnavbar />
     <div class="container">
       <div class="container-1">
         <header>
-          <h1 class="brand-name">STORE</h1>
+          <h1 class="brand-name">
+            <router-link to="/">STORE</router-link>
+          </h1>
           <nav>
             <ul>
               <li>
-                <a href="#" class="home-link">Home</a>
+                <router-link to="/" class="home-link">Home</router-link>
               </li>
               <li>
-                <a href="#">Explore</a>
+                <router-link to="/explore">Explore</router-link>
               </li>
               <li>
-                <a href="#">Hot Deals</a>
+                <router-link to="/hotdeal">Hot Deals</router-link>
               </li>
               <li>
-                <a href="#">Categories</a>
+                <router-link to="/categories">Categories</router-link>
               </li>
               <li>
-                <a href="#">Shops</a>
+                <router-link to="/shops">Shops</router-link>
               </li>
             </ul>
           </nav>
@@ -61,6 +64,14 @@ export default {
     productoverview,
     homeFooter,
     freeshippingnavbar,
+  },
+  mounted() {
+    this.$refs.topProgress.start();
+
+    // Use setTimeout for demo
+    setTimeout(() => {
+      this.$refs.topProgress.done();
+    }, 2000);
   },
 };
 </script>
