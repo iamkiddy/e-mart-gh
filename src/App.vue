@@ -5,6 +5,7 @@
       <navcarousel />
       <itemssection />
       <productoverview />
+      <Footer />
     </div>
   </div>
 </template>
@@ -14,13 +15,15 @@ import freeshippingnavbar from "./components/freeshippingnavbar";
 import navcarousel from "./components/navcarousel";
 import itemssection from "./components/itemssection";
 import productoverview from "./components/productoverview";
+import footer from "./components/footer";
 export default {
   name: "app",
   components: {
     freeshippingnavbar,
     navcarousel,
     itemssection,
-    productoverview
+    productoverview,
+    footer
   }
 };
 </script>
@@ -35,6 +38,6 @@ export default {
 }
 body {
   overflow-x: hidden;
-  margin-left: 100px;
+  margin-left: -25px;
 }
 </style>
