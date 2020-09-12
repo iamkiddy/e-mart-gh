@@ -8,7 +8,7 @@
             <a href="#">Help & FAQs</a>
           </li>
           <li>
-            <a href="#">My Account</a>
+            <router-link to="/account">My Account</router-link>
           </li>
           <li>
             <a href="#">EN</a>
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "freeshippingnavbar"
+  name: "freeshippingnavbar",
 };
 </script>
 

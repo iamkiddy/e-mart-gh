@@ -1,32 +1,36 @@
 <template>
   <div class="navcarousel">
+    <vue-topprogress ref="topProgress"></vue-topprogress>
+    <freeshippingnavbar />
     <div class="container">
       <div class="container-1">
         <header>
-          <h1 class="brand-name">STORE</h1>
+          <h1 class="brand-name">
+            <router-link to="/">STORE</router-link>
+          </h1>
           <nav>
             <ul>
               <li>
-                <a href="#" class="home-link">Home</a>
+                <router-link to="/" class="home-link">Home</router-link>
               </li>
               <li>
-                <a href="#">Explore</a>
+                <router-link to="/explore">Explore</router-link>
               </li>
               <li>
-                <a href="#">Hot Deals</a>
+                <router-link to="/hotdeal">Hot Deals</router-link>
               </li>
               <li>
-                <a href="#">Categories</a>
+                <router-link to="/categories">Categories</router-link>
               </li>
               <li>
-                <a href="#">Shops</a>
+                <router-link to="/shops">Shops</router-link>
               </li>
             </ul>
           </nav>
           <div class="shop-icons">
-            <img src="../assets/search.svg" class="search" />
-            <img src="../assets/shopping-bag.svg" class="bag" />
-            <img src="../assets/heart.svg" class="love" />
+            <img src="../../assets/search.svg" class="search" />
+            <img src="../../assets/shopping-bag.svg" class="bag" />
+            <img src="../../assets/heart.svg" class="love" />
           </div>
           <div class="bag-number">2</div>
         </header>
@@ -37,17 +41,38 @@
             <button class="sec-btn">SHOP NOW</button>
           </div>
           <div class="image">
-            <img src="../assets/maninshirt.jpg" class="img-main" />
+            <img src="../../assets/maninshirt.jpg" class="img-main" />
           </div>
         </section>
       </div>
     </div>
+    <itemssection />
+    <productoverview />
+    <homeFooter />
   </div>
 </template>
 
 <script>
+import itemssection from "../home-components/itemssection";
+import productoverview from "../home-components/productoverview";
+import homeFooter from "../home-components/home-footer";
+import freeshippingnavbar from "./freeshippingnavbar";
 export default {
-  name: "navcarousel"
+  name: "navcarousel",
+  components: {
+    itemssection,
+    productoverview,
+    homeFooter,
+    freeshippingnavbar,
+  },
+  mounted() {
+    this.$refs.topProgress.start();
+
+    // Use setTimeout for demo
+    setTimeout(() => {
+      this.$refs.topProgress.done();
+    }, 2000);
+  },
 };
 </script>
 
@@ -111,13 +136,16 @@ img:hover {
 }
 .bag-number {
   position: absolute;
-  right: 160px;
+  right: 140px;
   top: 55px;
   background: #6c7ae0;
   color: #ffffff;
-  width: 15px;
+  width: 1.25rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 500;
   text-align: center;
-  font-size: 13px;
+  line-height: 1.25rem;
 }
 .texts {
   margin-top: 130px;
@@ -142,6 +170,7 @@ img:hover {
   font-size: 15px;
   transition: all 0.5s;
   cursor: pointer;
+  font-family: "poppins", sans-serif;
 }
 .sec-btn:hover {
   background: #333;
@@ -156,5 +185,3 @@ img:hover {
   border: none;
 }
 </style>
-
-

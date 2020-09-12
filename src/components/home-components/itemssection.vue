@@ -4,17 +4,17 @@
       <div class="card c1">
         <h1 class="card-header">Phones</h1>
         <p class="card-para">Apple</p>
-        <img src="../assets/iphone-x.png" class="card-img iphone" />
+        <img src="../../assets/iphone-x.png" class="card-img iphone" />
       </div>
       <div class="card c1">
         <h1 class="card-header">Men</h1>
         <p class="card-para">Nike 2020</p>
-        <img src="../assets/nike-cap.png" class="card-img nike" />
+        <img src="../../assets/nike-cap.png" class="card-img nike" />
       </div>
       <div class="card c1">
         <h1 class="card-header">Laptop</h1>
         <p class="card-para">Apple</p>
-        <img src="../assets/laptop.png" class="card-img laptop" />
+        <img src="../../assets/laptop.png" class="card-img laptop" />
       </div>
     </div>
   </div>
@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "itemssection"
+  name: "itemssection",
 };
 </script>
 

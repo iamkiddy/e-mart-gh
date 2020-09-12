@@ -27,12 +27,12 @@
           <div class="customise-btn">
             <div class="filter">
               <button class="filter-btn">
-                <img src="../assets/filter.svg" class="filter-icon" /> Filter
+                <img src="../../assets/filter.svg" class="filter-icon" /> Filter
               </button>
             </div>
             <div class="search">
               <button class="search-btn">
-                <img src="../assets/search.svg" class="search-icon" /> Search
+                <img src="../../assets/search.svg" class="search-icon" /> Search
               </button>
             </div>
           </div>
@@ -41,37 +41,38 @@
           <div class="items-views">
             <div class="items-views-list">
               <div class="card-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/phone.png" class="card-img" />
+                <img src="../../assets/phone.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
               <div class="card-2 card-2-2">
-                <img src="../assets/man.png" class="card-img" />
+                <img src="../../assets/man.png" class="card-img" />
                 <h1 class="item-content">sprit Ruffle Shirt</h1>
                 <p class="item-price">GHS 50</p>
               </div>
             </div>
           </div>
+          <button class="items-btn">Show more</button>
         </div>
       </div>
     </div>
@@ -80,7 +81,7 @@
 
 <script>
 export default {
-  name: "productoverview"
+  name: "productoverview",
 };
 </script>
 
@@ -209,6 +210,31 @@ a {
 .item-price {
   color: #6c7ae0;
 }
+.items-btn {
+  position: relative;
+  top: 90px;
+  left: 500px;
+  min-width: 161px;
+  height: 46px;
+  margin-top: 50px;
+  border-radius: 23px;
+  background: #e6e6e6;
+  border: none;
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-family: "poppins", sans-serif;
+}
+.items-btn:hover {
+  background: #6c7ae0;
+  color: #fff;
+}
+a:hover {
+  color: #6c7ae0;
+}
+.link-line:hover {
+  background: #6c7ae0;
+}
 </style>
-
-
