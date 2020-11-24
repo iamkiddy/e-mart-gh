@@ -1,32 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <div id="app">
-    <div class="whole-app">
-      <freeshippingnavbar />
-      <navcarousel />
-      <itemssection />
-      <productoverview />
-      <Footer />
-    </div>
-  </div>
-</template>
-
-<script>
-import freeshippingnavbar from "./components/freeshippingnavbar";
-import navcarousel from "./components/navcarousel";
-import itemssection from "./components/itemssection";
-import productoverview from "./components/productoverview";
-import footer from "./components/footer";
-export default {
-  name: "app",
-  components: {
-    freeshippingnavbar,
-    navcarousel,
-    itemssection,
-    productoverview,
-    footer
-  }
-=======
   <router-view></router-view>
 </template>
 
@@ -49,7 +21,6 @@ export default {
       loading.close();
     }, 5000);
   },
->>>>>>> cc9927ad09882c73481a9f82a69c20d9f85f0023
 };
 </script>
 
@@ -63,9 +34,6 @@ export default {
 }
 body {
   overflow-x: hidden;
-<<<<<<< HEAD
-  margin-left: -25px;
-=======
 }
 .whole-app {
   margin-left: 0px;
@@ -76,6 +44,5 @@ body {
 ::-webkit-scrollbar-thumb {
   background: #222;
   border-radius: 10px;
->>>>>>> cc9927ad09882c73481a9f82a69c20d9f85f0023
 }
 </style>
